@@ -332,3 +332,39 @@ html {
   text-align: center;
   color: #1b2939;
 }
+.button type {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 32px;
+  min-width: 263px;
+  max-width: 348px;
+  background: linear-gradient(
+    80.23deg,
+    #e8652d -4.25%,
+    #e82dd2 28.23%,
+    #a650ff 69.35%,
+    #009dff 116.49%
+  );
+  border-radius: 16px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  transition: 200ms ease-in;
+}
+.button type:hover {
+  background: linear-gradient(
+    88.08deg,
+    #009dff 3.71%,
+    #a650ff 38.56%,
+    #e84980 68.28%,
+    #e8652d 91.86%
+  );
+  box-shadow: 0px 6px 12px rgba(172, 73, 245, 0.3);
+}
